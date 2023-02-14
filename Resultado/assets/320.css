@@ -51,9 +51,7 @@
 }
 
 
-
 /*-------------------------------------------------------*/
-
 
 #menu {
     width: 100%;
@@ -61,8 +59,8 @@
 }
 
 #lista-menu {
-    display: flex;
     width: 100%;
+    display: flex;
     justify-content: space-between;
     padding: 0px 0px;
     
@@ -73,14 +71,103 @@
 
 #lista-menu li {
     display: flex;
-    width: 100%;
+ 
     color: white;
-    padding: 10px 8px;
+    padding: 10px 14px;
 }
 
 
 #lista-menu li p {
-    padding-left: 24px;
+    padding-left: 20px;
 }
 
+
+#lista-menu li:hover {
+    background-color: #f44336;
+}
+
+/*-------------------------------------------------------*/
+
+#rota {
+    padding: 15px;
+}
+
+#rota div h1 {
+    padding: 20px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+#rota div p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.form {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    margin-bottom: 15px;
+}
+
+
+.botao {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    border: none;
+}
+
+
+/*-------------------------------------------------------*/
+
+
+#paises {
+    padding: 18px;
+    padding-top: 80px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+
+
+#paises div h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding-bottom: 17px;
+}
+
+.ptitulo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    padding-bottom: 17px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#paises div img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+article {
+    position: relative;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 370%);
+    z-index: 1;
+    color: white;
+    
+}
 
