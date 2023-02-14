@@ -1,0 +1,36 @@
+/* Tela largura 320px*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#inicio {
+    width: 100%;
+    display: flex;
+    
+}
+
+#inicio div {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+#inicio div img {
+    width: 60px;
+    height: 30px;
+}
+
+#inicio div h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #f44336;
+}
+
+#inicio div span {
+    
+    
+}
