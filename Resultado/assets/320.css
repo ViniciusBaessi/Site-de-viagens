@@ -3,34 +3,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
 
 
+
 * {
     margin: 0;
-    padding: 0;
 }
+
+
+
+ 
+
+
 
 #inicio {
-    width: 100%;
-    display: flex;
-    
-}
-
-#inicio div {
-    width: 100%;
-    display: flex;
     justify-content:space-between;
+    width: 100%;
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    border: 1px solid black;
 }
 
-#inicio div img {
-    width: 60px;
-    height: 30px;
+.lupa, .logo {
+    display: flex;
+
 }
 
-#inicio div h1 {
+.logo i {
+    font-size:26px;
+    width:18px;
+    color: #f44336;
+    padding-left: 15px;
+}
+
+.logo h1 {
     font-family: 'Raleway', sans-serif;
     color: #f44336;
+    padding-left: 15px;
 }
 
-#inicio div span {
+.lupa {
     
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 15px;
+
+    font-size:26px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.521) ;
+}
+
+
+
+/*-------------------------------------------------------*/
+
+
+#menu {
+    width: 100%;
+}
+
+#lista-menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 0px;
+
+    list-style: none;
+    border: 1px solid black;
     
 }
+
