@@ -247,7 +247,7 @@ aside div {
 #newsletter{
     margin-top: 2px;
     padding: 10px;
-    width: 90%;
+    width: 92%;
     border: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.096);
     margin-bottom: 16px;
@@ -336,16 +336,33 @@ aside div {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     color: #9c9c9c;
+    margin-bottom: 28px;
 }
 
 #rodape div ul {
-    width: 100%;
-    padding: 0px;
-   
+    
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 90px;
 }
 
-#rodape div ul li {
+.rlista {
     list-style: none;
-    
-    
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+
+#rodape div p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #9c9c9c;
+    padding-top: 33px;
+    padding-bottom: 18px;
+}
+
+.vini {
+    font-weight: 500;
+    text-decoration:underline;
 }
