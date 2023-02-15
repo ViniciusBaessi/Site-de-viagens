@@ -1,3 +1,30 @@
-@media screen and (min-width: 450px) and (max-width: 768px) {
+@media screen and (min-width: 450px) and (max-width: 767px) {
 
+
+
+    .txt {
+        width: 100%;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-47%, 40%);
+       
+    }
+
+
+    .pdesc {
+        font-size: 15px;
+    }
+
+
+    .ptxt {
+        width: 98%;
+        font-size: 16px;
+  
+    }
+
+
+    .plink {
+        font-size: 18px;
+    }
 }
