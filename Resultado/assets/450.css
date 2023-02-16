@@ -12,6 +12,10 @@
     }
 
 
+    #lista-menu li {
+        padding: 10px 32px;
+    }
+
     .pdesc {
         font-size: 15px;
     }
