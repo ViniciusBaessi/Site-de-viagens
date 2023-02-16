@@ -1,7 +1,7 @@
 
 # Site de viagens ✈
 
-⚡ Prática proposta pelo canal DevMedia, onde criarei um site, com base no design pré-definido por eles.
+⚡ Prática proposta pelo canal DevMedia, onde criarei um site responsivo, com base no design pré-definido por eles.
 
 📲 Acesse em: https://site-de-viagens-alpha.vercel.app/
 
